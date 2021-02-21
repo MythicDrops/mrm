@@ -5,5 +5,5 @@ it("applies 6 plugins", () => {
 });
 
 it("releases on the main branch", () => {
-  expect(branches).toContain(["main"]);
+  expect(branches).toContain("main");
 });
