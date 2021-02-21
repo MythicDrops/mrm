@@ -1,6 +1,13 @@
 # @mythicdrops/semantic-release-gradle-config
 
-[**semantic-release**](https://github.com/semantic-release/semantic-release) shareable config to publish Gradle projects to Maven Central.
+[**semantic-release**](https://github.com/semantic-release/semantic-release) shareable config to publish MythicDrops
+Gradle projects to Maven Central.
+
+## Prerequisites
+
+- Node >= 14
+- npm ^7
+- Gradle >= 6.8.2
 
 ## Plugins
 

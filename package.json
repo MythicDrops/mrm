@@ -13,7 +13,8 @@
   "author": "Richard Harrah",
   "license": "MIT",
   "engines": {
-    "node": ">=14"
+    "node": ">=14",
+    "npm": "^7"
   },
   "main": "dist/index.js",
   "module": "dist/mrm.esm.js",
