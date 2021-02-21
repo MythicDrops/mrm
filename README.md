@@ -11,7 +11,7 @@ This shareable configuration use the following plugins:
 - [`@semantic-release/git`](https://github.com/semantic-release/git)
 - [`@semantic-release/github`](https://github.com/semantic-release/github)
 - [`@semantic-release/release-notes-generator`](https://github.com/semantic-release/release-notes-generator)
-- [`gradle-semantic-release-plugin`](https://github.com/KengoTODA/gradle-semantic-release-plugin)
+- [`@mythicdrops/semantic-release-sonatype`](https://github.com/MythicDrops/semantic-release-sonatype)
 
 ## Install
 
