@@ -1,4 +1,11 @@
-export const branches = ["main"];
+export const branches = [
+  "+([0-9])?(.{+([0-9]),x}).x",
+  "main",
+  "next",
+  "next-major",
+  { name: "beta", prerelease: true },
+  { name: "alpha", prerelease: true },
+];
 
 export const plugins = [
   "@semantic-release/commit-analyzer",

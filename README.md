@@ -39,3 +39,17 @@ The shareable config can be configured in the [**semantic-release** configuratio
 ## Configuration
 
 See each [plugin](#plugins) documentation for required installation and configuration steps.
+
+## Releases
+
+Supported release branches can now happen as below:
+
+- regular releases to the default distribution channel from the branch `main`
+- regular releases to a distribution channel matching the branch name from any
+  existing branch with a name matching a maintenance release range (`N.N.x` or
+  `N.x.x` or `N.x` with `N` being a number)
+- regular releases to the `next` distribution channel from the branch `next` if it exists
+- regular releases to the `next-major` distribution channel from the branch
+  `next-major` if it exists
+- prereleases to the `beta` distribution channel from the branch `beta` if it exists
+- prereleases to the `alpha` distribution channel from the branch `alpha` if it exists
