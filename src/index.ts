@@ -12,6 +12,9 @@ export const plugins = [
         {
           path: "**/build/libs/*.jar",
         },
+        {
+          path: "**/build/distributions/*.zip",
+        },
       ],
     },
   ],
