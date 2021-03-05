@@ -11,7 +11,7 @@ export const plugins = [
   "@semantic-release/commit-analyzer",
   "@semantic-release/release-notes-generator",
   "@semantic-release/changelog",
-  "@mythicdrops/semantic-release-sonatype",
+  ["@mythicdrops/semantic-release-sonatype", { extraPublishTasks: ["build"] }],
   [
     "@semantic-release/github",
     {
