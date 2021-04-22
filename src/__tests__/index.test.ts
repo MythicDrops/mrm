@@ -1,7 +1,7 @@
 import { branches, plugins } from "../";
 
-it("applies 6 plugins", () => {
-  expect(plugins.length).toBe(6);
+it("applies 5 plugins", () => {
+  expect(plugins.length).toBe(5);
 });
 
 it("releases on the main branch", () => {
